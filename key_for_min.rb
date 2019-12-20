@@ -6,7 +6,7 @@ sum=0
 diff=0
 name_hash.collect do |key, value|
  sum=sum+value
- diff=value-diff
- puts sum
+ diff=sum-value
+ puts diff
 end
 end
