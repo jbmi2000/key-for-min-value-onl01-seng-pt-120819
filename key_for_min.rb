@@ -3,8 +3,10 @@
 
 def key_for_min_value(name_hash)
 sum=0
+diff=0
 name_hash.collect do |key, value|
  sum=sum+value
+ diff=value-diff
  puts sum
 end
 end
